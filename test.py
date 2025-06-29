@@ -47,3 +47,5 @@ def test_metrics_accuracy():
     acc = df.loc[df['metric'] == 'accuracy', 'value'].values[0]
     assert float(acc) > 0.8, "Reported accuracy must be > 80%"
 
+
+#################################
